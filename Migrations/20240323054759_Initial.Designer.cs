@@ -11,7 +11,7 @@ using PracticaBACHKOVApp1;
 namespace PracticaBACHKOVApp1.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240322120718_Initial")]
+    [Migration("20240323054759_Initial")]
     partial class Initial
     {
         /// <inheritdoc />

@@ -41,5 +41,12 @@ namespace PracticaBACHKOVApp1
             context.SaveChanges();
             MessageBox.Show("Welcome to the club, buddy");
         }
+
+        private void Button1_Click(object sender, RoutedEventArgs e)
+        {
+        MainWindow aut = new MainWindow();
+            aut.Show();
+            this.Close();
+        }
     }
 }

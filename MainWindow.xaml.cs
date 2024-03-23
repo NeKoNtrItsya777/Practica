@@ -50,7 +50,7 @@ namespace PracticaBACHKOVApp1
             var context = new AppDbContext();
 
             var user = context.Users.SingleOrDefault(x => x.Login ==  login && x.Password == password);
-            if (user != null) 
+            if (user is null) 
             {
                 MessageBox.Show("Неправильный пароль или логин!");
                 return;
